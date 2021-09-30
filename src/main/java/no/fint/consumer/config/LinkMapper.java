@@ -44,6 +44,7 @@ public class LinkMapper {
             .put("no.fint.model.administrasjon.kodeverk.Lonnsart", "/administrasjon/kodeverk/lonnsart")
             .put("no.fint.model.administrasjon.kodeverk.Fravarsgrunn", "/administrasjon/kodeverk/fravarsgrunn")
             .put("no.fint.model.administrasjon.kodeverk.Fravarstype", "/administrasjon/kodeverk/fravarstype")
+            .put("no.fint.model.felles.kodeverk.Kommune", "/felles/kodeverk/kommune")
             .put("no.fint.model.felles.kodeverk.iso.Kjonn", "/felles/kodeverk/iso/kjonn")
             .put("no.fint.model.felles.kodeverk.iso.Sprak", "/felles/kodeverk/iso/sprak")
             .put("no.fint.model.utdanning.elev.Elev", "/utdanning/elev/elev")
