@@ -31,6 +31,7 @@ public class LinkMapper {
             .put("no.fint.model.administrasjon.kodeverk.Arbeidsforholdstype", "/administrasjon/kodeverk/arbeidsforholdstype")
             .put("no.fint.model.administrasjon.kodeverk.Art", "/administrasjon/kodeverk/art")
             .put("no.fint.model.administrasjon.kodeverk.Diverse", "/administrasjon/kodeverk/diverse")
+            .put("no.fint.model.administrasjon.kodeverk.Formal", "/administrasjon/kodeverk/formal")
             .put("no.fint.model.administrasjon.kodeverk.Funksjon", "/administrasjon/kodeverk/funksjon")
             .put("no.fint.model.administrasjon.kodeverk.Kontrakt", "/administrasjon/kodeverk/kontrakt")
             .put("no.fint.model.administrasjon.kodeverk.Lopenummer", "/administrasjon/kodeverk/lopenummer")
