@@ -40,6 +40,7 @@ public class LinkMapper {
             .put("no.fint.model.administrasjon.kodeverk.Ramme", "/administrasjon/kodeverk/ramme")
             .put("no.fint.model.administrasjon.kodeverk.Stillingskode", "/administrasjon/kodeverk/stillingskode")
             .put("no.fint.model.administrasjon.kodeverk.Uketimetall", "/administrasjon/kodeverk/uketimetall")
+            .put("no.fint.model.administrasjon.organisasjon.Arbeidslokasjon", "/administrasjon/organisasjon/arbeidslokasjon")
             .put("no.fint.model.administrasjon.organisasjon.Organisasjonselement", "/administrasjon/organisasjon/organisasjonselement")
             .put("no.fint.model.utdanning.elev.Undervisningsforhold", "/utdanning/elev/undervisningsforhold")
             .put("no.fint.model.administrasjon.kodeverk.Lonnsart", "/administrasjon/kodeverk/lonnsart")
