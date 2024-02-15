@@ -107,7 +107,10 @@ public class KontaktpersonCacheService extends CacheService<KontaktpersonResourc
         } else {
             data = objectMapper.convertValue(event.getData(), javaType);
         }
-        data.forEach(linker::mapLinks);
+        data.forEach(resource -> {
+            linker.mapLinks(resource);
+            linker.resetSelfLinks(resource);
+        });
         if (FellesActions.valueOf(event.getAction()) == FellesActions.UPDATE_KONTAKTPERSON) {
             if (event.getResponseStatus() == ResponseStatus.ACCEPTED || event.getResponseStatus() == ResponseStatus.CONFLICT) {
                 List<CacheObject<KontaktpersonResource>> cacheObjects = data
