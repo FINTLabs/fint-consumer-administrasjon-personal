@@ -117,10 +117,7 @@ public class FravarCacheService extends CacheService<FravarResource> {
         } else {
             data = objectMapper.convertValue(event.getData(), javaType);
         }
-        data.forEach(resource -> {
-            linker.mapLinks(resource);
-            linker.resetSelfLinks(resource);
-        });
+        data.forEach(linker::mapLinks);
         if (PersonalActions.valueOf(event.getAction()) == PersonalActions.UPDATE_FRAVAR) {
             if (event.getResponseStatus() == ResponseStatus.ACCEPTED || event.getResponseStatus() == ResponseStatus.CONFLICT) {
                 List<CacheObject<FravarResource>> cacheObjects = data

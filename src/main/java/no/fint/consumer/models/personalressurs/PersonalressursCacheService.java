@@ -127,10 +127,7 @@ public class PersonalressursCacheService extends CacheService<PersonalressursRes
         } else {
             data = objectMapper.convertValue(event.getData(), javaType);
         }
-        data.forEach(resource -> {
-            linker.mapLinks(resource);
-            linker.resetSelfLinks(resource);
-        });
+        data.forEach(linker::mapLinks);
         if (PersonalActions.valueOf(event.getAction()) == PersonalActions.UPDATE_PERSONALRESSURS) {
             if (event.getResponseStatus() == ResponseStatus.ACCEPTED || event.getResponseStatus() == ResponseStatus.CONFLICT) {
                 List<CacheObject<PersonalressursResource>> cacheObjects = data
