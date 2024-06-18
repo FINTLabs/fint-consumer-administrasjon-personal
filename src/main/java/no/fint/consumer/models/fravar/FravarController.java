@@ -182,7 +182,7 @@ public class FravarController {
 
             fintAuditService.audit(response, Status.SENT_TO_CLIENT);
 
-            return linker.toResource(fravar);
+            return linker.mapAndResetLinks(fravar);
         }    
     }
 
@@ -226,7 +226,7 @@ public class FravarController {
 
             fintAuditService.audit(response, Status.SENT_TO_CLIENT);
 
-            return linker.toResource(fravar);
+            return linker.mapAndResetLinks(fravar);
         }    
     }
 

@@ -182,7 +182,7 @@ public class VariabellonnController {
 
             fintAuditService.audit(response, Status.SENT_TO_CLIENT);
 
-            return linker.toResource(variabellonn);
+            return linker.mapAndResetLinks(variabellonn);
         }    
     }
 
@@ -226,7 +226,7 @@ public class VariabellonnController {
 
             fintAuditService.audit(response, Status.SENT_TO_CLIENT);
 
-            return linker.toResource(variabellonn);
+            return linker.mapAndResetLinks(variabellonn);
         }    
     }
 

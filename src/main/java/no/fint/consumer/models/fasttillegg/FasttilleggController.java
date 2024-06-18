@@ -182,7 +182,7 @@ public class FasttilleggController {
 
             fintAuditService.audit(response, Status.SENT_TO_CLIENT);
 
-            return linker.toResource(fasttillegg);
+            return linker.mapAndResetLinks(fasttillegg);
         }    
     }
 
@@ -226,7 +226,7 @@ public class FasttilleggController {
 
             fintAuditService.audit(response, Status.SENT_TO_CLIENT);
 
-            return linker.toResource(fasttillegg);
+            return linker.mapAndResetLinks(fasttillegg);
         }    
     }
 
