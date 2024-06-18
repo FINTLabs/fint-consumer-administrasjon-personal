@@ -182,7 +182,7 @@ public class PersonalressursController {
 
             fintAuditService.audit(response, Status.SENT_TO_CLIENT);
 
-            return linker.toResource(personalressurs);
+            return linker.mapAndResetLinks(personalressurs);
         }    
     }
 
@@ -226,7 +226,7 @@ public class PersonalressursController {
 
             fintAuditService.audit(response, Status.SENT_TO_CLIENT);
 
-            return linker.toResource(personalressurs);
+            return linker.mapAndResetLinks(personalressurs);
         }    
     }
 
@@ -270,7 +270,7 @@ public class PersonalressursController {
 
             fintAuditService.audit(response, Status.SENT_TO_CLIENT);
 
-            return linker.toResource(personalressurs);
+            return linker.mapAndResetLinks(personalressurs);
         }    
     }
 
