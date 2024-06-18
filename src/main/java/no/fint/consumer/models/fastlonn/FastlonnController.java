@@ -182,7 +182,7 @@ public class FastlonnController {
 
             fintAuditService.audit(response, Status.SENT_TO_CLIENT);
 
-            return linker.toResource(fastlonn);
+            return linker.mapAndResetLinks(fastlonn);
         }    
     }
 
@@ -226,7 +226,7 @@ public class FastlonnController {
 
             fintAuditService.audit(response, Status.SENT_TO_CLIENT);
 
-            return linker.toResource(fastlonn);
+            return linker.mapAndResetLinks(fastlonn);
         }    
     }
 
