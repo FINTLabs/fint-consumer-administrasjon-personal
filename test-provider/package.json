@@ -4,7 +4,7 @@
     "start": "concurrently --kill-others './gradlew bootRun -Dspring.profiles.active=test -p ..' 'wait-on tcp:6379 && ./gradlew bootRun'"
   },
   "dependencies": {
-    "concurrently": "^3.4.0",
+    "concurrently": "^3.6.1",
     "wait-on": "^2.0.2"
   }
 }
