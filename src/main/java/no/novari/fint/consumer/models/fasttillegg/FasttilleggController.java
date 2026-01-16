@@ -1,8 +1,8 @@
 package no.novari.fint.consumer.models.fasttillegg;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.SerializationFeature;
 import com.google.common.collect.ImmutableMap;
 import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
@@ -30,11 +30,10 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.util.UriComponentsBuilder;
 
 import javax.servlet.http.HttpServletRequest;
-import java.net.UnknownHostException;
 import java.net.URI;
+import java.net.UnknownHostException;
 
 import java.util.Map;
 import java.util.ArrayList;
@@ -46,6 +45,7 @@ import java.util.stream.Stream;
 import no.novari.fint.model.resource.administrasjon.personal.FasttilleggResource;
 import no.novari.fint.model.resource.administrasjon.personal.FasttilleggResources;
 import no.novari.fint.model.administrasjon.personal.PersonalActions;
+import org.springframework.web.util.UriComponentsBuilder;
 
 @Slf4j
 @Api(tags = {"Fasttillegg"})
