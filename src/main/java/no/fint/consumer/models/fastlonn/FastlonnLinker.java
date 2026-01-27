@@ -1,7 +1,7 @@
 package no.fint.consumer.models.fastlonn;
 
-import no.fint.model.resource.administrasjon.personal.FastlonnResource;
-import no.fint.model.resource.administrasjon.personal.FastlonnResources;
+import no.novari.fint.model.resource.administrasjon.personal.FastlonnResource;
+import no.novari.fint.model.resource.administrasjon.personal.FastlonnResources;
 import no.fint.relations.FintLinker;
 import org.springframework.stereotype.Component;
 

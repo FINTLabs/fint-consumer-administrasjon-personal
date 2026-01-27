@@ -26,10 +26,10 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import no.fint.model.administrasjon.personal.Fravar;
-import no.fint.model.resource.administrasjon.personal.FravarResource;
-import no.fint.model.administrasjon.personal.PersonalActions;
-import no.fint.model.felles.kompleksedatatyper.Identifikator;
+import no.novari.fint.model.administrasjon.personal.Fravar;
+import no.novari.fint.model.resource.administrasjon.personal.FravarResource;
+import no.novari.fint.model.administrasjon.personal.PersonalActions;
+import no.novari.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Slf4j
 @Service
