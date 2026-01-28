@@ -1,7 +1,7 @@
 package no.fint.consumer.models.person;
 
-import no.fint.model.resource.felles.PersonResource;
-import no.fint.model.resource.felles.PersonResources;
+import no.novari.fint.model.resource.felles.PersonResource;
+import no.novari.fint.model.resource.felles.PersonResources;
 import no.fint.relations.FintLinker;
 import org.springframework.stereotype.Component;
 

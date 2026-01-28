@@ -43,9 +43,9 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Stream;
 
-import no.fint.model.resource.administrasjon.personal.FasttilleggResource;
-import no.fint.model.resource.administrasjon.personal.FasttilleggResources;
-import no.fint.model.administrasjon.personal.PersonalActions;
+import no.novari.fint.model.resource.administrasjon.personal.FasttilleggResource;
+import no.novari.fint.model.resource.administrasjon.personal.FasttilleggResources;
+import no.novari.fint.model.administrasjon.personal.PersonalActions;
 
 @Slf4j
 @Api(tags = {"Fasttillegg"})

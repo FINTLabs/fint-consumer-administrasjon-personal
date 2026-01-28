@@ -40,9 +40,9 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Stream;
 
-import no.fint.model.resource.felles.PersonResource;
-import no.fint.model.resource.felles.PersonResources;
-import no.fint.model.felles.FellesActions;
+import no.novari.fint.model.resource.felles.PersonResource;
+import no.novari.fint.model.resource.felles.PersonResources;
+import no.novari.fint.model.felles.FellesActions;
 
 @Slf4j
 @Api(tags = {"Person"})

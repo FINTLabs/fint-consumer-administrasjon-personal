@@ -1,12 +1,12 @@
 package no.fint.data;
 
 import com.google.common.collect.ImmutableList;
-import no.fint.model.administrasjon.personal.Arbeidsforhold;
-import no.fint.model.administrasjon.personal.Personalressurs;
-import no.fint.model.felles.kompleksedatatyper.Identifikator;
-import no.fint.model.felles.kompleksedatatyper.Periode;
-import no.fint.model.relation.FintResource;
-import no.fint.model.relation.Relation;
+import no.novari.fint.model.administrasjon.personal.Arbeidsforhold;
+import no.novari.fint.model.administrasjon.personal.Personalressurs;
+import no.novari.fint.model.felles.kompleksedatatyper.Identifikator;
+import no.novari.fint.model.felles.kompleksedatatyper.Periode;
+import no.novari.fint.model.relation.FintResource;
+import no.novari.fint.model.relation.Relation;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;

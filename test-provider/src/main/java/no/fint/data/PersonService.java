@@ -2,9 +2,9 @@ package no.fint.data;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
-import no.fint.model.felles.kompleksedatatyper.Identifikator;
-import no.fint.model.felles.Person;
-import no.fint.model.relation.FintResource;
+import no.novari.fint.model.felles.kompleksedatatyper.Identifikator;
+import no.novari.fint.model.felles.Person;
+import no.novari.fint.model.relation.FintResource;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

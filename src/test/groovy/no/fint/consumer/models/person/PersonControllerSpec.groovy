@@ -4,7 +4,7 @@ import no.fint.audit.FintAuditService
 import no.fint.consumer.config.ConsumerProps
 import no.fint.consumer.utils.RestEndpoints
 import no.fint.event.model.HeaderConstants
-import no.fint.model.resource.felles.PersonResources
+import no.novari.fint.model.resource.felles.PersonResources
 import no.fint.test.utils.MockMvcSpecification
 import org.springframework.http.HttpHeaders
 import org.springframework.http.MediaType

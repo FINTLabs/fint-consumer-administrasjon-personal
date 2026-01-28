@@ -1,7 +1,7 @@
 package no.fint.consumer.models.arbeidsforhold;
 
-import no.fint.model.resource.administrasjon.personal.ArbeidsforholdResource;
-import no.fint.model.resource.administrasjon.personal.ArbeidsforholdResources;
+import no.novari.fint.model.resource.administrasjon.personal.ArbeidsforholdResource;
+import no.novari.fint.model.resource.administrasjon.personal.ArbeidsforholdResources;
 import no.fint.relations.FintLinker;
 import org.springframework.stereotype.Component;
 

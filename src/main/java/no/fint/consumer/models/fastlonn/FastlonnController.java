@@ -43,9 +43,9 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Stream;
 
-import no.fint.model.resource.administrasjon.personal.FastlonnResource;
-import no.fint.model.resource.administrasjon.personal.FastlonnResources;
-import no.fint.model.administrasjon.personal.PersonalActions;
+import no.novari.fint.model.resource.administrasjon.personal.FastlonnResource;
+import no.novari.fint.model.resource.administrasjon.personal.FastlonnResources;
+import no.novari.fint.model.administrasjon.personal.PersonalActions;
 
 @Slf4j
 @Api(tags = {"Fastlonn"})

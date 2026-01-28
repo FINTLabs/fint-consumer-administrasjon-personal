@@ -12,7 +12,7 @@ import no.fint.events.FintEvents;
 import no.fint.events.FintEventsHealth;
 import no.fint.events.annotations.FintEventListener;
 import no.fint.events.queue.QueueType;
-import no.fint.model.relation.FintResource;
+import no.novari.fint.model.relation.FintResource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

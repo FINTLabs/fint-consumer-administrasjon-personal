@@ -1,14 +1,14 @@
 package no.fint.consumer.models.fravar
 
 import no.fint.consumer.utils.RestEndpoints
-import no.fint.model.administrasjon.kodeverk.Fravarsgrunn
-import no.fint.model.administrasjon.kodeverk.Fravarstype
-import no.fint.model.administrasjon.personal.Arbeidsforhold
-import no.fint.model.administrasjon.personal.Fravar
-import no.fint.model.felles.kompleksedatatyper.Identifikator
-import no.fint.model.felles.kompleksedatatyper.Periode
-import no.fint.model.resource.Link
-import no.fint.model.resource.administrasjon.personal.FravarResource
+import no.novari.fint.model.administrasjon.kodeverk.Fravarsgrunn
+import no.novari.fint.model.administrasjon.kodeverk.Fravarstype
+import no.novari.fint.model.administrasjon.personal.Arbeidsforhold
+import no.novari.fint.model.administrasjon.personal.Fravar
+import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
+import no.novari.fint.model.felles.kompleksedatatyper.Periode
+import no.novari.fint.model.resource.Link
+import no.novari.fint.model.resource.administrasjon.personal.FravarResource
 import org.apache.commons.io.IOUtils
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.context.embedded.LocalServerPort

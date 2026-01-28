@@ -1,7 +1,7 @@
 package no.fint.consumer.models.personalressurs;
 
-import no.fint.model.resource.administrasjon.personal.PersonalressursResource;
-import no.fint.model.resource.administrasjon.personal.PersonalressursResources;
+import no.novari.fint.model.resource.administrasjon.personal.PersonalressursResource;
+import no.novari.fint.model.resource.administrasjon.personal.PersonalressursResources;
 import no.fint.relations.FintLinker;
 import org.springframework.stereotype.Component;
 

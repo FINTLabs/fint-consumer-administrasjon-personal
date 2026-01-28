@@ -1,13 +1,13 @@
 package no.fint.consumer.models.variabellonn
 
 import no.fint.consumer.utils.RestEndpoints
-import no.fint.model.administrasjon.kompleksedatatyper.Kontostreng
-import no.fint.model.administrasjon.personal.Variabellonn
-import no.fint.model.felles.kompleksedatatyper.Identifikator
-import no.fint.model.felles.kompleksedatatyper.Periode
-import no.fint.model.resource.Link
-import no.fint.model.resource.administrasjon.kompleksedatatyper.KontostrengResource
-import no.fint.model.resource.administrasjon.personal.VariabellonnResource
+import no.novari.fint.model.administrasjon.kompleksedatatyper.Kontostreng
+import no.novari.fint.model.administrasjon.personal.Variabellonn
+import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
+import no.novari.fint.model.felles.kompleksedatatyper.Periode
+import no.novari.fint.model.resource.Link
+import no.novari.fint.model.resource.administrasjon.kompleksedatatyper.KontostrengResource
+import no.novari.fint.model.resource.administrasjon.personal.VariabellonnResource
 import org.apache.commons.io.IOUtils
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.context.embedded.LocalServerPort

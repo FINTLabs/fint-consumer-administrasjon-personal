@@ -26,10 +26,10 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import no.fint.model.felles.Kontaktperson;
-import no.fint.model.resource.felles.KontaktpersonResource;
-import no.fint.model.felles.FellesActions;
-import no.fint.model.felles.kompleksedatatyper.Identifikator;
+import no.novari.fint.model.felles.Kontaktperson;
+import no.novari.fint.model.resource.felles.KontaktpersonResource;
+import no.novari.fint.model.felles.FellesActions;
+import no.novari.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Slf4j
 @Service

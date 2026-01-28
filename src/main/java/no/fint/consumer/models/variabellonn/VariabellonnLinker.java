@@ -1,7 +1,7 @@
 package no.fint.consumer.models.variabellonn;
 
-import no.fint.model.resource.administrasjon.personal.VariabellonnResource;
-import no.fint.model.resource.administrasjon.personal.VariabellonnResources;
+import no.novari.fint.model.resource.administrasjon.personal.VariabellonnResource;
+import no.novari.fint.model.resource.administrasjon.personal.VariabellonnResources;
 import no.fint.relations.FintLinker;
 import org.springframework.stereotype.Component;
 

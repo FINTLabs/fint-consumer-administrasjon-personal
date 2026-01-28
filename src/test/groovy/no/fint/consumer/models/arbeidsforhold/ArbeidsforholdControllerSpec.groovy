@@ -3,7 +3,7 @@ package no.fint.consumer.models.arbeidsforhold
 
 import no.fint.consumer.utils.RestEndpoints
 import no.fint.event.model.HeaderConstants
-import no.fint.model.resource.administrasjon.personal.ArbeidsforholdResource
+import no.novari.fint.model.resource.administrasjon.personal.ArbeidsforholdResource
 import org.spockframework.spring.SpringBean
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc

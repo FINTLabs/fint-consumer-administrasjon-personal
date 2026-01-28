@@ -43,9 +43,9 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Stream;
 
-import no.fint.model.resource.administrasjon.personal.FravarResource;
-import no.fint.model.resource.administrasjon.personal.FravarResources;
-import no.fint.model.administrasjon.personal.PersonalActions;
+import no.novari.fint.model.resource.administrasjon.personal.FravarResource;
+import no.novari.fint.model.resource.administrasjon.personal.FravarResources;
+import no.novari.fint.model.administrasjon.personal.PersonalActions;
 
 @Slf4j
 @Api(tags = {"Fravar"})

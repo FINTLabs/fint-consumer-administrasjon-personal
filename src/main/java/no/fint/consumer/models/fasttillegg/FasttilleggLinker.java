@@ -1,7 +1,7 @@
 package no.fint.consumer.models.fasttillegg;
 
-import no.fint.model.resource.administrasjon.personal.FasttilleggResource;
-import no.fint.model.resource.administrasjon.personal.FasttilleggResources;
+import no.novari.fint.model.resource.administrasjon.personal.FasttilleggResource;
+import no.novari.fint.model.resource.administrasjon.personal.FasttilleggResources;
 import no.fint.relations.FintLinker;
 import org.springframework.stereotype.Component;
 

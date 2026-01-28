@@ -1,13 +1,13 @@
 package no.fint.consumer.models.fasttilllegg
 
 import no.fint.consumer.utils.RestEndpoints
-import no.fint.model.administrasjon.kompleksedatatyper.Kontostreng
-import no.fint.model.administrasjon.personal.Fasttillegg
-import no.fint.model.felles.kompleksedatatyper.Identifikator
-import no.fint.model.felles.kompleksedatatyper.Periode
-import no.fint.model.resource.Link
-import no.fint.model.resource.administrasjon.kompleksedatatyper.KontostrengResource
-import no.fint.model.resource.administrasjon.personal.FasttilleggResource
+import no.novari.fint.model.administrasjon.kompleksedatatyper.Kontostreng
+import no.novari.fint.model.administrasjon.personal.Fasttillegg
+import no.novari.fint.model.felles.kompleksedatatyper.Identifikator
+import no.novari.fint.model.felles.kompleksedatatyper.Periode
+import no.novari.fint.model.resource.Link
+import no.novari.fint.model.resource.administrasjon.kompleksedatatyper.KontostrengResource
+import no.novari.fint.model.resource.administrasjon.personal.FasttilleggResource
 import org.apache.commons.io.IOUtils
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.context.embedded.LocalServerPort
